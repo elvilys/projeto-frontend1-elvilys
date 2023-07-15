@@ -1,22 +1,51 @@
-.container{
-display: flex;
-height: 100vh;
+.container {
+    display: flex;
+    height: 100vh;
 }
 
-.primeiracolumna{
+.primeiracolumna {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 700px;
+    width: 250px;
+    height: 750px;
     background-color: rgb(184, 138, 226);
-    
+
+
 }
-.fotoperfil{
+
+.fotoperfil {
     border-radius: 100%;
     border: 5px rgb(73, 2, 139);
     margin: 200px auto;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     align-items: center;
 
+}
+
+#menu {
+    text-align: center;
+
+
+}
+
+#menu button a {
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(204, 167, 240);
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+
+
+
+}
+
+#menu a:hover {
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 30%;
 }
