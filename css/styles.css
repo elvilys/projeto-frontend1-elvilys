@@ -1,7 +1,9 @@
 .container {
     display: flex;
     height: 100vh;
-   
+
+
+
 }
 
 /* o bloco dos botões*/
@@ -34,18 +36,20 @@
 
 }
 
-#menu button a {
+
+.botao {
     border: none;
     display: inline-block;
-    padding: 10px 24px;
+    padding: 10px 25px;
     background-color: rgb(205, 51, 243);
-    color: aliceblue;
+    color: #fff;
     text-decoration: none;
-    margin: 0px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 20px;
     outline: none;
     cursor: pointer;
+    margin-bottom: 3px;
+
 }
 
 #menu a:hover {
@@ -53,20 +57,56 @@
     color: #fff;
     border-radius: 30%;
 }
+
 /*segundo bloco*/
 
 
-.segundacolumna{
-    
+.segundacolumna {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 900px;
     height: 750px;
-    
-}
-.nome{
-font-size: 50px;
-font-family: 'Roboto',' sans-serif' , 'serif';
 
+
+}
+
+.nome {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(38, 7, 68);
+}
+
+.datos-pessoais {
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(38, 7, 68);
+}
+
+.telefone {
+    font-size: 20;
+    color: rgb(205, 51, 243);
+}
+
+.botao-email {
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(205, 51, 243);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+
+}
+#icones-redes{
+    font-size: 50px;
+    color: blueviolet;
+
+}
+#icones-redes a :hover{
+    background-color: rgb(190, 148, 201);
+    border-radius: 70%;
 }
