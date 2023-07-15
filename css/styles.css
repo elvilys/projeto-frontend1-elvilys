@@ -1,6 +1,7 @@
 .container {
     display: flex;
     height: 100vh;
+   
 }
 
 /* o bloco dos botões*/
@@ -53,3 +54,19 @@
     border-radius: 30%;
 }
 /*segundo bloco*/
+
+
+.segundacolumna{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 750px;
+    
+}
+.nome{
+font-size: 50px;
+font-family: 'Roboto',' sans-serif' , 'serif';
+
+}
