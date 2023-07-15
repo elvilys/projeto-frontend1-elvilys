@@ -1,21 +1,22 @@
 .container{
-    display:flex;
-
+display: flex;
+height: 100vh;
 }
 
-.block1{
-    width: 10%;
-    right: 400px;
-    padding: 20px;
-    background-color: aqua;
-
+.primeiracolumna{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 700px;
+    background-color: rgb(184, 138, 226);
+    
 }
 .fotoperfil{
     border-radius: 100%;
-    width: 200px;
-    right: 200px;
-    margin: 0;
-    padding: 0;
-    
-    
+    border: 5px rgb(73, 2, 139);
+    margin: 200px auto;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+
 }
