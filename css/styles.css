@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+
+}
+
+.block1{
+    width: 10%;
+    right: 400px;
+    padding: 20px;
+    background-color: aqua;
+
+}
+.fotoperfil{
+    border-radius: 100%;
+    width: 200px;
+    right: 200px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
