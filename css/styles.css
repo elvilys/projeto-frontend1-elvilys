@@ -126,21 +126,17 @@
 }
 /* inicio da pagina conhecimentos*/
 
-
-.tituloconhecimentos{
-   
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(240, 14, 221);
-}
-
-.titulo2{
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(187, 113, 216);   
+.terceiracolumna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 750px;
+    
 }
 
 .listaordenada{
-    
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(122, 5, 138);
 }
