@@ -126,3 +126,21 @@
 }
 /* inicio da pagina conhecimentos*/
 
+
+.tituloconhecimentos{
+   
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(240, 14, 221);
+}
+
+.titulo2{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(187, 113, 216);   
+}
+
+.listaordenada{
+    
+}
